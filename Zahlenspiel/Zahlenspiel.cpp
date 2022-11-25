@@ -64,13 +64,6 @@ void RunGame() {
 		tries++;
 	} while (!ValidateUserGuess(guess, randomNumber));
 	cout << "Du hast " << tries << " Versuche gebraucht.\nIn dem Zahlenraum von 1 bis " << maxNumber << "." << endl << "\n";
-	/*cout << "__3__" << endl;
-	Sleep(1000); // angegeben in ms (Glaube ich)
-	cout << "__2__" << endl;
-	Sleep(1000);
-	cout << "__1__" << endl;
-	Sleep(1000);
-	system("cls");*/
 }
 
 int GetUserGuess() {
